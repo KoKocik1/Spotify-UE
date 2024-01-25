@@ -1,0 +1,8 @@
+#docker
+version: "3.9" 
+services:
+  timelap: 
+    image: belkius/top50poland:0.0.1 
+    build: . 
+    volumes:
+      - /home/spotify/app:/app 
